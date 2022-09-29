@@ -13,7 +13,7 @@ public class Main
         double triangle = 0;
         double square = 0;
 
-        System.out.println("Enter the first long side of your rectangle: ");
+        System.out.print("Enter the first long side of your rectangle: ");
         if(in.hasNextDouble())
         {
             longA = in.nextDouble();
@@ -24,7 +24,7 @@ public class Main
             System.out.println("That is an incorrect input, Try Again!");
         }
 //---------------------------------------------------------------------------------
-        System.out.println("Enter the second long side of your rectangle: ");
+        System.out.print("Enter the second long side of your rectangle: ");
         if(in.hasNextDouble())
         {
            longB = in.nextDouble();
@@ -35,7 +35,7 @@ public class Main
             System.out.println("That is an incorrect input, Try Again!");
         }
 //---------------------------------------------------------------------------------
-        System.out.println("Enter the first short side of your rectangle: ");
+        System.out.print("Enter the first short side of your rectangle: ");
         if(in.hasNextDouble())
         {
             shortA = in.nextDouble();
@@ -46,7 +46,7 @@ public class Main
             System.out.println("That is an incorrect input, Try Again!");
         }
 //---------------------------------------------------------------------------------
-        System.out.println("Enter the second short side of your rectangle: ");
+        System.out.print("Enter the second short side of your rectangle: ");
         if(in.hasNextDouble())
         {
             shortB = in.nextDouble();
